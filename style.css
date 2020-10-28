@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #a9d7e9; ;
+}
+.container{
+    width: 70%;
+    background: whitesmoke;
+    margin-left: 20%;
+    padding: 50px 0 0 0;
+    margin: 20px 0 20px 15% ;
+    border-radius: 15px;
+}
+h1{
+    font-size: 3.4rem;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center ;
+}
+li{
+    list-style: none;
+    padding-bottom: 2rem;
+    margin-left: 40%;
+    font-size: 1rem;
+}
+
+.name{
+    margin-left: 20%;
+}
+    .loc{
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+.time{
+    margin-left: 19%;
+    
+}
+.time_1{
+    margin-left: 45%;
+    
+}
+#user_scale{
+    width: 30%;
+    padding: 12px;
+    margin-bottom: 5%;
+}
+#user{
+    display:inline-block;
+    padding-bottom: 20px;
+    width: 50%;
+}
+select{
+    display:inline-block;
+    padding-bottom: 20px;
+    width: 30%;
+
+}
+.name_1{
+    margin-left: 6%;
+}
+textarea{
+    margin-left: 3%;
+    width: 30%;
+}
+.msg{
+    margin-left: 15%;
+}
+.btn-primary{
+    margin:5% 0 2rem 45%;
+    /* margin-bottom: 2rem; */
+    background: rgb(65, 124, 233);
+    border-radius: 3px;
+    color: white;
+    width: 12%;
+    font-size: 1.3rem;
+    height: 40px;
+    border-style:2px solid rgb(65,124,233);
+}
+@media(max-width:600px){
+    .container{
+        max-width: 100%;
+/* margin: 0%; */
+margin-left: 15%;
+background-position:center ;
+    }
+    .btn-primary{
+        width: 30%;
+    }
+    label{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+input{
+    margin-left:20px;
+}
+.ti{
+    margin-left: 45%;
+
+}
+}
